@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sarthak Singh – Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+  <nav class="wrap" aria-label="Main">
+    <a href="#home" class="logo">sarthak<span>.</span></a>
+    <ul class="links" id="links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button type="button" class="icon-btn" id="themeBtn" aria-label="Switch to light mode">☀️</button>
+    <button type="button" class="icon-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="links">☰</button>
+  </nav>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+  <div class="wrap grid">
+    <div>
+      <p class="hello">Hi, I’m</p>
+      <h1>Sarthak <em>Singh</em></h1>
+      <p class="intro">A first-year B.Tech CS student at KIET who enjoys turning ideas into clean, useful web apps. I’m currently learning full-stack development and looking for internships.</p>
+      <div class="cta-group">
+        <a class="btn primary" href="#projects">See my projects</a>
+        <a class="btn" href="#contact">Contact me</a>
+      </div>
+    </div>
+    <div class="portrait" aria-hidden="true">SS</div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <h2>About me</h2>
+    <p class="lead">A little about who I am and what I study.</p>
+    <div class="about">
+      <div class="card">
+        <p>I’m a curious and hands-on learner who likes building things I can actually use. I started with small HTML pages and now build interactive apps with JavaScript and am learning Java.</p>
+        <p>Outside of coding I enjoy playing guitar, football and cricket, reading about technology, and helping classmates with their projects.</p>
+      </div>
+      <div class="card">
+        <dl><!-- EDIT these details -->
+          <dt>Name</dt><dd>Sarthak Singh</dd>
+          <dt>Degree</dt><dd>B.Tech, Computer Science</dd>
+          <dt>Year</dt><dd>1st year</dd>
+          <dt>University</dt><dd>KIET (Deemed to be University)</dd>
+          <dt>Languages</dt><dd>English, Hindi, German</dd>
+          <dt>Interests</dt><dd>Web, AI, Cricket, Guitar, Football</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap">
+    <h2>Education</h2>
+    <p class="lead">My academic journey so far.</p>
+    <div class="timeline"><!-- EDIT schools and years -->
+      <div class="item"><small>2026 – present</small><h3>B.Tech in Computer Science</h3><p>KIET (Deemed to be University) · 1st year</p></div>
+      <div class="item"><small>Class 12 · Boards</small><h3>Senior Secondary</h3><p>Modern Academy Senior Secondary School · 90%</p></div>
+      <div class="item"><small>Class 10 · Boards</small><h3>Secondary</h3><p>Modern Academy Senior Secondary School · 92%</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <h2>Skills</h2>
+    <p class="lead">What I work with, and how I work with others.</p>
+    <div class="skills">
+      <div class="card">
+        <h3 class="subhead">Technical</h3>
+        <div class="bar"><div><span>HTML &amp; CSS</span><span>90%</span></div><div class="track"><div class="fill" data-w="90"></div></div></div>
+        <div class="bar"><div><span>Git &amp; GitHub</span><span>70%</span></div><div class="track"><div class="fill" data-w="70"></div></div></div>
+        <div class="bar"><div><span>C++</span><span>60%</span></div><div class="track"><div class="fill" data-w="60"></div></div></div>
+        <div class="bar"><div><span>JavaScript</span><span>55%</span></div><div class="track"><div class="fill" data-w="55"></div></div></div>
+      </div>
+      <div class="card">
+        <h3 class="subhead">Non-technical</h3>
+        <div class="chips">
+          <span>Communication</span><span>Teamwork</span><span>Problem solving</span>
+          <span>Time management</span><span>Adaptability</span><span>Public speaking</span><span>Leadership</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <h2>Projects</h2>
+    <p class="lead">A few things I’ve built.</p>
+    <div class="projects"><!-- EDIT titles and links -->
+      <article class="card proj">
+        <div class="thumb">⛅</div>
+        <h3>Skyline Weather</h3>
+        <p>A weather dashboard with city search, 7-day forecast, rain chances and °C/°F toggle.</p>
+        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>API</span></div>
+        <a href="#projects">View project</a>
+      </article>
+      <article class="card proj">
+        <div class="thumb">✅</div>
+        <h3>Task Planner</h3>
+        <p>A to-do app where you can add, filter and complete tasks, saved in the browser.</p>
+        <div class="tags"><span>JavaScript</span><span>LocalStorage</span></div>
+        <a href="#projects">View project</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <h2>Contact</h2>
+    <p class="lead">Have an opportunity or a question? Send me a message.</p>
+    <div class="contact">
+      <div class="card">
+        <h3>Let’s talk</h3>
+        <ul class="reach"><!-- EDIT -->
+          <li>📧 <a href="mailto:xoderstrange@gmail.com">xoderstrange@gmail.com</a></li>
+          <li>💼 <a href="https://www.linkedin.com/in/sarthak-singh-459156421?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_android" target="_blank" rel="noopener noreferrer">LinkedIn – Sarthak Singh</a></li>
+          <li>🐙 <a href="https://github.com/Elliet-ryuk" target="_blank" rel="noopener noreferrer">github.com/Elliet-ryuk</a></li>
+        </ul>
+      </div>
+      <form class="card" id="form" novalidate>
+        <div class="field"><label for="name">Name</label><input id="name" name="name" autocomplete="name" required><div class="err"></div></div>
+        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required><div class="err"></div></div>
+        <div class="field"><label for="msg">Message</label><textarea id="msg" name="message" required></textarea><div class="err"></div></div>
+        <button class="btn primary" type="submit">Send message</button>
+        <div class="ok" id="ok" role="status" aria-live="polite">Thanks! Your message was sent.</div>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap">© <span id="yr"></span> Sarthak Singh · Built with HTML, CSS &amp; JavaScript</div></footer>
+
+</body>
+</html>
